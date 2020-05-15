@@ -114,19 +114,6 @@ header {
     font-weight: bold;
 }
 
-#banner a {
-    display: block;
-    background-color: #b28756;
-    color: #fff;
-    text-transform: uppercase;
-    margin-top: 30px;
-    font-size: 14px;
-    text-decoration: none;
-    padding: 10px 30px;
-    font-weight: 600;
-    border-radius: 50px;
-}
-
 .slide-points {
     width: 100vw;
     height: 20px;
@@ -162,7 +149,8 @@ header {
     font-weight: 600;
 }
 
-.default .section-title {
+.default .section-title,
+.default .section-body  {
     font-size: 20px;
 }
 
@@ -190,6 +178,53 @@ header {
     background-color: #000;
 }
 
-.default.dark .section-title {
+.default.dark .section-title,
+.default.dark .section-body {
    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+
+
+/*
+    Section CSS
+*/
+
+
+
+.section-about {
+    display: flex;
+
+}
+
+.section-about--left {
+    flex: 1;
+    padding-right: 15px;
+}
+
+.section-about--right {
+    width: 500px;
+    text-align: center;
+}
+
+.section-about--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.section-about--left p{
+    font-size: 14px;
+    line-height: 26px;
 }
