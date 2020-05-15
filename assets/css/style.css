@@ -199,7 +199,7 @@ header {
 
 
 /*
-    Section CSS
+    Section About Us 
 */
 
 
@@ -227,4 +227,38 @@ header {
 .section-about--left p{
     font-size: 14px;
     line-height: 26px;
+}
+
+
+/*
+    Section Services
+*/
+
+
+
+.section-services {
+    display: flex;
+    text-align: center;
+}
+
+.section-service {
+    flex: 1;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+
+.section-service:first-child {
+    border-left: 1px solid #333;
+
+}
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
 }
